@@ -73,7 +73,12 @@ You can use the official version http://www.mingw.org/wiki/Getting_Started
 
 If using the unoficial python one make sure to check all of the boxes during the install and select `link with MSVCR90.DLL`
 
+`Once all of the appropriate software is setup type:` 
+	
+	git clone https://github.com/GroestlCoin/groestlcoin-hash-python 
+	cd groestlcoin_hash_python
 
+followed by
 `sudo python setup.py install` On Linux  
 `python.exe setup.py build --compile=mingw32 install` On Windows  
 `cd ..`
