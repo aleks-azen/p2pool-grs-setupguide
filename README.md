@@ -13,7 +13,7 @@ You may not want to store groestlcoins entire blockchain on your primary drive. 
 
 	cd %appdata%
 	mklink /D groestlcoin E:\groestldata
-		
+	
 4. `What we've just done is create a symbolic link on your system so when Groestlcoin-core tries to write data in the standard directory it will be redirected to your other drive`
 
 ## Configuring the Groestlcoin daemon
