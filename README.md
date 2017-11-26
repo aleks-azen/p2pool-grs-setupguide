@@ -60,7 +60,8 @@ Open a terminal window and navigate to where you want to download P2Pool. Type:
 
 #### This tends to be the most annoying part so I've included a precomipled module for windows with this project. 
 
-	Download groestlcoin_hash.pyd from this repository and place it inside your PYTHONDIR/lib/site-packages (usually C:/python27/lib/site-packages) directory and you can skip this step
+	Download groestlcoin_hash.pyd from this repository and place it inside your 
+	PYTHONDIR/lib/site-packages (usually C:/python27/lib/site-packages) directory and you can skip this step
 
 You will need to compile the groestlhash module. On Windows you will need to install MinGW.
 
