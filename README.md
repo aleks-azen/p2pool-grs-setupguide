@@ -68,6 +68,7 @@ You will need to compile the groestlhash module. On Windows you will need to ins
 MinGW for windows (Run these installs as administrator if possible):
 
 You can use the official version http://www.mingw.org/wiki/Getting_Started
+
 `I'd recommend the unoffical one for python however` - https://github.com/develersrl/gccwinbinaries (direct download - https://github.com/develersrl/gccwinbinaries/releases/download/v1.1/gcc-mingw-4.3.3-setup.exe)
 
 If using the unoficial python one make sure to check all of the boxes during the install and select `link with MSVCR90.DLL`
