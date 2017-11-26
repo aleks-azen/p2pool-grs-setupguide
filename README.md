@@ -63,6 +63,8 @@ Next type:
 
 ### Compile the Groestlcoin hash module
 
+#### This tends to be the most annoying part so I've included a precomipled module for windows with this project. 
+
 You will need to compile the groestlhash module. On Windows you will need to install MinGW.
 
 MinGW for windows (Run these installs as administrator if possible):
@@ -84,9 +86,16 @@ followed by
 `python.exe setup.py build --compile=mingw32 install` On Windows  
 `cd ..`
 
-### Run P2Pool
+## Finally Run P2Pool
 
 Type `python run_p2pool.py --net groestlcoin`.
+
+This runs p2pool at localhost:11330 so to mine point your miner at that address
+
+You can open it to the public by forwarding port 11330 from your router to the computer running the p2pool on your network and enabling uPNP
+
+
+Lastly here is my favorite web-ui to use for p2pool: https://github.com/justino/p2pool-ui-punchy simply clone that and put its contents into p2pool-grs/webstatic
 
 ---
 
