@@ -10,10 +10,10 @@ You may not want to store groestlcoins entire blockchain on your primary drive. 
 2. `Delete your C:\Users\your_user\AppData\Roaming\groestlcoin directory (YOUR WALLET IS HERE BACK IT UP/MAKE SURE ITS MOVED)`
 3. open a command promt and type:
 
-		cd %appdata%
-		mklink /D groestlcoin E:\groestldata
+	cd %appdata%
+	mklink /D groestlcoin E:\groestldata
 		
-4. What we've just done is create a symbolic link on your system so when Groestlcoin-core tries to write data in the standard directory it will be redirected to your other drive
+4. `What we've just done is create a symbolic link on your system so when Groestlcoin-core tries to write data in the standard directory it will be redirected to your other drive`
 
 ## Configuring the Groestlcoin daemon
 
@@ -52,11 +52,13 @@ Open a terminal window and navigate to where you want to download P2Pool. Type:
 	cd p2pool-grs
 	
 Leave the terminal open and in that directory (p2pool-grs/) create a file called requirements.txt and paste this into it:
+
 	Twisted>=12.2.0
 	argparse>=1.2.1
 	pyOpenSSL>=0.13
 
 Next type:
+
     pip install -r requirements.txt
 
 ### Compile the Groestlcoin hash module
