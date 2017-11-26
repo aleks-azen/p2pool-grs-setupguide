@@ -11,9 +11,8 @@ You may not want to store groestlcoins entire blockchain on your primary drive. 
 2. `Delete your C:\Users\your_user\AppData\Roaming\groestlcoin directory (YOUR WALLET IS HERE BACK IT UP/MAKE SURE ITS MOVED)`
 3. open a command promt and type:
 
-    server=1
-    rpcuser=user
-    rpcpassword=YourSuperGreatPasswordNumber_DO_NOT_USE_THIS_OR_YOU_WILL_GET_ROBBED_385593
+		cd %appdata%
+		mklink /D groestlcoin E:\groestldata
 	
 4. `What we've just done is create a symbolic link on your system so when Groestlcoin-core tries to write data in the standard directory it will be redirected to your other drive`
 
