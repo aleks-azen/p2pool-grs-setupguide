@@ -9,13 +9,16 @@ You may not want to store groestlcoins entire blockchain on your primary drive. 
 1. `Create your target directory in my case it would be E:\groestldata. Move everything from C:\Users\your_user\AppData\Roaming\groestlcoin (%appdata%\groestlcoin) to your newly created directory. If you already have the blockchain downloaded on your primary drive you can attempt to shutdown the core wallet and copy it over to, if something goes wrong this may corrupt it and force you to redownload the chain.`
 2. `Delete your C:\Users\your_user\AppData\Roaming\groestlcoin directory (YOUR WALLET IS HERE BACK IT UP/MAKE SURE ITS MOVED)`
 3. open a command promt and type:
+
 		cd %appdata%
 		mklink /D groestlcoin E:\groestldata
+		
 4. What we've just done is create a symbolic link on your system so when Groestlcoin-core tries to write data in the standard directory it will be redirected to your other drive
 
 ## Configuring the Groestlcoin daemon
 
 After you installed Groestlcoin-core you will need to enable the RPC server. To do so add the following text to your `groestlcoin.conf` file:
+
     server=1
     rpcuser=user
     rpcpassword=YourSuperGreatPasswordNumber_DO_NOT_USE_THIS_OR_YOU_WILL_GET_ROBBED_385593
