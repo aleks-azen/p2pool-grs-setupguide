@@ -79,6 +79,7 @@ If using the unoficial python one make sure to check all of the boxes during the
 	cd groestlcoin_hash_python
 
 followed by
+
 `sudo python setup.py install` On Linux  
 `python.exe setup.py build --compile=mingw32 install` On Windows  
 `cd ..`
