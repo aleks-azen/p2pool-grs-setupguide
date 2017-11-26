@@ -3,7 +3,7 @@
 ## Installing Groestlcoin-core
 The first thing you will need is the groestlcoin-core wallet: https://www.groestlcoin.org/groestlcoin-core-wallet/ download this, run it and let it download the blockchain
 
-###Windows users with multiple harddrives
+### Windows users with multiple harddrives
 You may not want to store groestlcoins entire blockchain on your primary drive. To move the blockchain to a different drive follow these steps (I will be moving to E:\groestldata):
 
 1. Create your target directory in my case it would be E:\groestldata. Move everything from C:\Users\your_user\AppData\Roaming\groestlcoin (%appdata%\groestlcoin) to your newly created directory. If you already have the blockchain downloaded on your primary drive you can attempt to shutdown the core wallet and copy it over to, if something goes wrong this may corrupt it and force you to redownload the chain.
