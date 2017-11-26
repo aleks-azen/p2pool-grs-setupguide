@@ -1,4 +1,5 @@
 # Groestlcoin (GRS) P2Pool setup guide
+One of my installs refused to function on a 64-bit version of python 2.7, installing the 32-bit version and reinstalling all of the dependencies fixed that -- if you are having issues try that
 
 ## Installing Groestlcoin-core
 The first thing you will need is the groestlcoin-core wallet: https://www.groestlcoin.org/groestlcoin-core-wallet/ download this, run it and let it download the blockchain
@@ -43,6 +44,9 @@ Requirement | Terminal command | Notes
 --- | --- | ---
 [Git](https://git-scm.com/downloads) | `apt-get install git` |
 [Python 2 (NOT 3)](https://www.python.org/downloads/) | `apt-get install python python-pip` | On Windows check the options to install PIP and to add Python to the PATH variable.
+[win32api](http://sourceforge.net/projects/pywin32/files/pywin32/Build%20218/) |  | install the same bit version as your python install -- windows only
+[win32api wmi wrapper](https://pypi.python.org/pypi/WMI/#downloads) |  | -- windows only
+
 
 ### Clone P2Pool
 
