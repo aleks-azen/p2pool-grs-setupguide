@@ -54,15 +54,6 @@ Open a terminal window and navigate to where you want to download P2Pool. Type:
 
     git clone https://github.com/Groestlcoin/p2pool-grs.git
 	cd p2pool-grs
-	
-Leave the terminal open and in that directory (p2pool-grs/) create a file called requirements.txt and paste this into it:
-
-	Twisted>=12.2.0
-	argparse>=1.2.1
-	pyOpenSSL>=0.13
-
-Next type:
-
     pip install -r requirements.txt
 
 ### Compile the Groestlcoin hash module
