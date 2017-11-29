@@ -56,12 +56,9 @@ Open a terminal window and navigate to where you want to download P2Pool. Type:
 	cd p2pool-grs
     pip install -r requirements.txt
 
-### Compile the Groestlcoin hash module
+### Compile the Groestlcoin hash module (OPTIONAL)
 
-#### This tends to be the most annoying part so I've included a precomipled module for windows with this project. 
-
-	Download groestlcoin_hash.pyd from this repository and place it inside your 
-	PYTHONDIR/lib/site-packages (usually C:/python27/lib/site-packages) directory and you can skip this step
+####  This tends to be the most annoying part so I've included a precomipled module for windows with this project. -- I've merged the module into the core repo requirements.txt so this is optional now
 
 You will need to compile the groestlhash module. On Windows you will need to install MinGW.
 
