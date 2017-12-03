@@ -5,6 +5,7 @@ One of my installs refused to function on a 64-bit version of python 2.7, instal
 The first thing you will need is the groestlcoin-core wallet: 
 
 Windows: https://www.groestlcoin.org/groestlcoin-core-wallet/ download this, run it and let it download the blockchain
+
 Linux: 
 
 	sudo apt-add-repository ppa:groestlcoin/groestlcoin
