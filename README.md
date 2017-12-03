@@ -14,6 +14,7 @@ Linux:
 	groestlcoind -daemon
 
 `Linux notes: the above will download and start the groestlcoin core daemon which starts to download the blockchain you can continue with the rest of the guide while this downloads`
+
 To check the blockchain download progress you can type `groestlcoin-cli getblockchaininfo` you can start running the p2pool when  "verificationprogress" value is .99xxxxx
 
 ### Windows users with multiple harddrives
