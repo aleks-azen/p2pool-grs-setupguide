@@ -2,7 +2,18 @@
 One of my installs refused to function on a 64-bit version of python 2.7, installing the 32-bit version and reinstalling all of the dependencies fixed that -- if you are having issues try that
 
 ## Installing Groestlcoin-core
-The first thing you will need is the groestlcoin-core wallet: https://www.groestlcoin.org/groestlcoin-core-wallet/ download this, run it and let it download the blockchain
+The first thing you will need is the groestlcoin-core wallet: 
+
+Windows: https://www.groestlcoin.org/groestlcoin-core-wallet/ download this, run it and let it download the blockchain
+Linux: 
+
+	sudo apt-add-repository ppa:groestlcoin/groestlcoin
+	sudo apt-get update
+	sudo apt-get install groestlcoind
+	groestlcoind -daemon
+
+`Linux notes: the above will download and start the groestlcoin core daemon which starts to download the blockchain you can continue with the rest of the guide while this downloads`
+To check the blockchain download progress you can type `groestlcoin-cli getblockchaininfo` you can start running the p2pool when  "verificationprogress" value is .99xxxxx
 
 ### Windows users with multiple harddrives
 You may not want to store groestlcoins entire blockchain on your primary drive. To move the blockchain to a different drive follow these steps (I will be moving to E:\groestldata):
